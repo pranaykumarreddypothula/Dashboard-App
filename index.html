@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="title">🚀 Smart Dashboard</h1>
+  <div class="dashboard">
+    <div class="card">
+      <h2>🌦️ Weather</h2>
+      <input type="text" id="cityInput" placeholder="Enter city">
+      <button onclick ="getWeather()">Get Weather</button>
+      <div class="output" id = "weatherOutput">Weather info here</div>
+    </div>
+    <div class="card">
+      <h2>🎬 Movie Search</h2>
+      <input type="text" id = "movie" placeholder="Enter movie name">
+      <button onclick = "searchMovie()">Search Movie</button>
+      <div class="output" id = "movieOutput">Movie info here</div>
+    </div>
+    <div class="card">
+      <h2>Clock</h2>
+      <div class = "output" id = "clock">--:--:--</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
