@@ -1,18 +1,19 @@
-# 🚀 Dashboard App
+# 📊 Dashboard App
 
-A smart dashboard built with **Vanilla JavaScript**.
+A clean and responsive dashboard application built using HTML, CSS, and JavaScript.
+
+## 🌐 Live Demo
+👉 https://pranaykumarreddypothula.github.io/Dashboard-App/
+
+## 🛠 Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
 ## ✨ Features
-- 🌦️ Weather search (OpenWeather API)
-- 🎬 Movie search + trailer (OMDB API)
-- ⏰ Live digital clock
-- Clean dashboard UI
+- Responsive layout
+- Interactive UI components
+- Clean and modern design
+- Lightweight and fast
 
-## 🛠️ Tech Stack
-- HTML
-- CSS
-- JavaScript
-- REST APIs
-
-## 👤 Author
-Pranay
+## 📁 Project Structure
