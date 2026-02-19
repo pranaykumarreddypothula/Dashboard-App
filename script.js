@@ -26,6 +26,7 @@ function getWeather(){
         output.innerText = "Error fetching weather";
         output.style.color = "red";
     });
+    output.innerText = "";
 }
 function searchMovie(){
     let movie = document.getElementById("movie").value;
